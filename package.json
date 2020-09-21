@@ -1,0 +1,25 @@
+{
+  "name": "fed-e-task-03-04",
+  "private": true,
+  "scripts": {
+    "dev": "gridsome develop",
+    "build": "gridsome build",
+    "explore": "gridsome explore",
+    "deploy": "gh-pages -d dist"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.2",
+    "element-ui": "^2.13.2",
+    "gridsome": "^0.7.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "gh-pages": "^3.1.0"
+  }
+}
